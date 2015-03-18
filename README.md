@@ -24,7 +24,7 @@ P.coords(function(){
     message:'错误消息'
   };
   // 如果出错了 以下为错误代码
-	0: 未知错误,浏览器没有提示出错的原因,相当于常量event.UNKNOWN_ERROR
+  0: 未知错误,浏览器没有提示出错的原因,相当于常量event.UNKNOWN_ERROR
   1: 用户拒绝授权,相当于常量event.PERMISSION_DENIED
   2: 没有得到位置,GPS或其他定位机制无法定位,相当于常量event.POSITION_UNAVAILABLE
   3: 超时,GPS没有在指定时间内返回结果,相当于常量event.TIMEOUT
